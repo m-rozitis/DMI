@@ -1,0 +1,53 @@
+    1  VirtualBox --startvm XP
+    2  firefox & 
+    3  git clone https://github.com/m-rozitis/DMI
+    4  pwd
+    5  cd DMI
+    6  ls -la
+    7  val=
+    8  val= exp 2 +2
+    9  nano
+   10  #!/bin/sh
+   11  val= expr 2 + 2
+   12  echo "Total value : $val"
+   13  val= expr 2 + 2
+   14  nano
+   15  sh sheel_example
+   16  sh shell_example
+   17  nano
+   18  ls -la
+   19  nano shell_operators.sh
+   20  ls -la
+   21  chmod 744 shell_operators.sh 
+   22  ls -la
+   23  ./shell_operators.sh 
+   24  sh shell_operators.sh 
+   25  nano shell_operators.sh 
+   26  sh shell_operators.sh 
+   27  nano shell_operators.sh 
+   28  sh shell_operators.sh 
+   29  nano shell_operators.sh 
+   30  sh shell_operators.sh 
+   31  nano shell_operators.sh 
+   32  ./shell_operators.sh 
+   33  nano shell_operators.sh 
+   34  ./shell_operators.sh 
+   35  nano shell_operators.sh 
+   36  ./shell_operators.sh 
+   37  nano shell_operators.sh 
+   38  ./shell_operators.sh 
+   39  nano shell_operators.sh 
+   40  ./shell_operators.sh 
+   41  nano shell_operators.sh 
+   42  ./shell_operators.sh 
+   43  nano shell_operators.sh 
+   44  ./shell_operators.sh 
+   45  nano shell_operators.sh 
+   46  ./shell_operators.sh 
+   47  nano shell_operators.sh 
+   48  ./shell_operators.sh 
+   49  nano shell_operators.sh 
+   50  ./shell_operators.sh 
+   51  nano shell_operators.sh 
+   52  nano git-upload 
+   53  history > history_20171011.txt
