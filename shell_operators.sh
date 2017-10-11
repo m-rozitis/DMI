@@ -1,7 +1,36 @@
 #!/bin/bash
 
-# 3.piemērs operacijas r mainīgajiem
 
+
+
+
+
+
+# 4.piemērs operacijas ar argumentiem
+if [ $# == 2 ]
+# ja (if) skriptam nodotu argumentu skaits ($#) ir vienāds (==) ar$
+then
+# tad tiekmizpildītas visas sekojosas darbības līdz ... 
+a=$1
+b=$2
+val41=`expr $a + $b`
+echo "$a + $b + "$val41
+val42=`expr $a - $b`
+echo "$a - $b + "$val42
+val43=`expr $a \* $b`
+echo "$a * $b + "$val43
+val44=`expr $a / $b`
+echo "$a / $b + "$val44
+val45=`expr $a % $b`
+echo "$a % $b + "$val45
+#  ... šai vietai
+fi
+
+
+
+
+# 3.piemērs operacijas r mainīgajiem
+: <<'END'
 a=56
 b=32
 val31=`expr $a + $b`
@@ -14,7 +43,7 @@ val34=`expr $a / $b`
 echo "$a / $b + "$val34
 val35=`expr $a % $b`
 echo "$a % $b + "$val35
-
+END
 
  
 # 2. piemers - opreacijas ar konstantēm
