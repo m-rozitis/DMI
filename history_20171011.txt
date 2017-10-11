@@ -97,3 +97,32 @@
    97  ./git-upload 20171011_15_30
    98  nano git-upload 
    99  history > history_20171011.txt
+  100  ./git-upload 20171011_15_30
+  101  nano dialogs.sh
+  102  nano new_beggining
+  103  nano dialogs.sh
+  104  nano new_beggining
+  105  nano dialogs.sh
+  106  nano new_beggining
+  107  nano dialogs.sh
+  108  nano new_beggining
+  109  ./new_beggining
+  110  chmod 744 new_begging
+  111  ls -la
+  112  chmod 744 new_beggining
+  113  ls -la
+  114  ./new_beggining
+  115  new_beggining
+  116  ./new_beggining 
+  117  nano new_beggining
+  118  ./new_beggining 
+  119  nano new_beggining
+  120  ./new_beggining 
+  121  nano new_beggining
+  122  ./new_beggining 
+  123  nano new_beggining
+  124  ./new_beggining 
+  125  nano new_beggining
+  126  ./new_beggining 
+  127  nano new_beggining
+  128  history > history_20171011.txt

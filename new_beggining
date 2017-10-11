@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Yoooo dude, krc ievadi pimo ciparu vecais"
+read a
+echo "Yoooo dude, krc ievadi otro ciparu vecais"
+read b
+echo "Yoooo dude, krc ievadi trešais ciparu vecais"
+read c
+sum=$(echo "$a+$b*$c" | bc)
+echo "$a + $b * $c = "$sum
+starp=`expr $a - $b - $c`
+echo "$a - $b - $c = "$starp
+reiz=`expr $a \* $b \* $c`
+echo "$a * $b * $c = "$reiz
+dal=`expr $a / $b / $c`
+echo "$a / $b / $c = "$dal
+sum=`expr $a % $b % $c`
+echo "$a % $b % $c = "$sum
+
+
+
