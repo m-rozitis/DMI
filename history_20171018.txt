@@ -1,0 +1,50 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/m-rozitis/DMI
+    3  ls -la
+    4  nano dialogs.sh
+    5  nano a_vs_l_sh
+    6* 
+    7  chmod 744 a_vs_l.sh
+    8  nano a_vs_l_.sh
+    9  chmod 744 a_vs_l_.sh
+   10  ./a_vs_l_.sh
+   11  ./a_vs_l_.sh 
+   12  nano a_vs_l_.sh
+   13  ./a_vs_l_.sh 
+   14  nano a_vs_l_.sh
+   15  ./a_vs_l_.sh
+   16  nano a_vs_l_.sh
+   17  ./a_vs_l_.sh
+   18  chmod 744 a_vs_l_.sh
+   19  ./a_vs_l_.sh
+   20  nano a_vs_l_.sh
+   21  ls -l\
+   22  nano a_vs_l_.sh
+   23  ./a_vs_l_.sh
+   24  cd DMI/
+   25  pwd
+   26  ls -lt
+   27  nano a_vs_l_.sh 
+   28  ./a_vs_l_.sh
+   29  nano a_vs_l_.sh 
+   30  ./a_vs_l_.sh
+   31  nano a_vs_l_.sh 
+   32  ./a_vs_l_.sh
+   33  nano a_vs_l_.sh 
+   34  ./a_vs_l_.sh
+   35  nano a_vs_l_.sh 
+   36  ./a_vs_l_.sh
+   37  nano a_vs_l_.sh 
+   38  ./a_vs_l_.sh
+   39  nano a_vs_l_.sh 
+   40  ./a_vs_l_.sh
+   41  cp a_vs_l_.sh a_vs_l_a_.sh
+   42  ls -l
+   43  nano a_vs_l_a_.sh
+   44  ./a_vs_l_a_.sh 
+   45  nano a_vs_l_a_.sh
+   46  ./a_vs_l_a_.sh 
+   47  nano a_vs_l_a_.sh
+   48  history > history_20171018.txt
+   49  cat git-upload 
+   50  history > history_20171018.txt
