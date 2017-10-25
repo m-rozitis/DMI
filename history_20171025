@@ -1,0 +1,57 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/m-rozitis/DMI
+    3  cd DMI
+    4  ls -l
+    5  nano if.sh
+    6  chmod 744 if.sh
+    7  ./if.sh
+    8  nano if.sh
+    9  ls -l
+   10  ./if.sh 10
+   11  ./if.sh 5
+   12  nano if.sh
+   13  ./if.sh 10
+   14  nano if.sh
+   15  ./if.sh 10
+   16  nano if.sh
+   17  ./if.sh 10
+   18  nano if.sh
+   19  ./if.sh 10
+   20  ./if.sh -10
+   21  nano if.sh
+   22  ./if.sh 10
+   23  ./if.sh -10
+   24  ./if.sh 0
+   25  nano if.sh
+   26  ./if.sh 0
+   27  ./if.sh 10
+   28  ./if.sh 0
+   29  nano if.sh
+   30  ./if.sh 10
+   31  ./if.sh -10
+   32  ./if.sh 0
+   33  nano if.sh
+   34  ./if.sh 10
+   35  ./if.sh -10
+   36  ./if.sh 0
+   37  nano if.sh
+   38  ./if.sh 0
+   39  nano if.sh
+   40  nano if.sh 0
+   41  ./if.sh 0
+   42  ./if.sh 10
+   43  ./if.sh -10
+   44  nano if.sh
+   45  ls -l
+   46  ./new_beggining
+   47  nano new_beggining
+   48  nano if.sh
+   49  ./if.sh
+   50  nano if.sh
+   51  ./if.sh
+   52  nano if.sh
+   53  ./if.sh
+   54  nano if.sh
+   55  ./if.sh
+   56  history > history
+   57  history > history_20171025
