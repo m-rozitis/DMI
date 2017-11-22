@@ -1,0 +1,54 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/m-rozitis/DMI
+    3  ls -l
+    4  cd DMI
+    5  ls -l
+    6  cd PYTHON/
+    7  ls -l
+    8  nano  sin_caur_summu_ver3.py
+    9  ./sin_caur_summu_ver3.py
+   10  chmod 744 sin_caur_summu_ver3.py
+   11  ./sin_caur_summu_ver3.py
+   12  nano  sin_caur_summu_ver3.py
+   13  ./sin_caur_summu_ver3.py
+   14  nano  sin_caur_summu_ver3.py
+   15  ./sin_caur_summu_ver3.py
+   16  nano  sin_caur_summu_ver3.py
+   17  ./sin_caur_summu_ver3.py
+   18  nano  sin_caur_summu_ver3.py
+   19  ./sin_caur_summu_ver3.py
+   20  nano  sin_caur_summu_ver3.py
+   21  cp sin_caur_summu_ver3.py sin_caur_summu_ver4.py
+   22  nano  sin_caur_summu_ver4.py
+   23  python sin_caur_summu_ver4.py
+   24  cp sin_caur_summu_ver4.py sin_caur_summu_ver5.py
+   25  nano  sin_caur_summu_ver5.py
+   26  python sin_caur_summu_ver5.py
+   27  nano  sin_caur_summu_ver5.py
+   28  python sin_caur_summu_ver5.py
+   29  nano  sin_caur_summu_ver5.py
+   30  python sin_caur_summu_ver5.py
+   31  nano  sin_caur_summu_ver5.py
+   32  cp sin_caur_summu_ver5.py sin_caur_summu_ver6.py
+   33  nano  sin_caur_summu_ver6.py
+   34  python sin_caur_summu.py
+   35  nano  sin_caur_summu.py
+   36  python sin_caur_summu.py
+   37  nano  sin_caur_summu.py
+   38  python sin_caur_summu.py
+   39  nano  sin_caur_summu.py
+   40  python sin_caur_summu.py
+   41  nano  sin_caur_summu.py
+   42  python sin_caur_summu.py
+   43  nano  sin_caur_summu.py
+   44  python sin_caur_summu.py
+   45  nano  sin_caur_summu.py
+   46  python sin_caur_summu.py
+   47  nano  sin_caur_summu.py
+   48  python sin_caur_summu.py
+   49  nano  sin_caur_summu.py
+   50  python sin_caur_summu.py
+   51  nano  sin_caur_summu.py
+   52  python sin_caur_summu.py
+   53  cd ..
+   54  history > history_20172211
