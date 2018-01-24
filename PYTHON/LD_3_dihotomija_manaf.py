@@ -5,28 +5,28 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def mans_sinuss(x):
+def my_function(x):
     k = 0
-    a = (-1)**0*x**1/(1)
+    a = 1*(k+1)
     S = a
     while k < 500:
         k = k + 1
-        R = (-1)*x*x/((2*k)*(2*k+1))
+        R = ((k+1)*x)/(k*k)
         a = a * R
         S = S + a
     return S
 
-a = 1.57
-b = 4.71
+a = -2
+b = 2
 x = np.arange(a,b,0.01)
-y = mans_sinuss(x)
+y = my_function(x)
 plt.plot(x,y)
 plt.grid()
 #plt.show()
 
 delta_x = 1.e-3 # 0.001 ir tas pats kas 1.e-3
-funa = mans_sinuss(a)
-funb = mans_sinuss(b)
+funa = my_function(a)
+funb = my_function(b)
 if funa * funb > 0:
     print "[%.2f,%.2f] intervālā sakņu nav"%(a,b)
     print "vai šajā intervālā ir pāru sakņu skaits"
@@ -39,7 +39,7 @@ k = 0
 while b-a > delta_x:
     k = k + 1
     x = (a+b)/2
-    funx = mans_sinuss(x)
+    funx = my_function(x)
     print "%3d. a=%.5f f(%.5f)=%8.5f b=%.5f"%(k,a,x,funx,b)
     if funa *funx > 0:
         a = x
