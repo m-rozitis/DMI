@@ -13,10 +13,10 @@ echo "Mazākais skaitlis ir " ${sort[n-1]}
 if (( n % 2 == 1 ))
 then
 	echo -n "Mediāna ir "
-	echo "scale=1;(${sort[$n/2]} + ${sort[$n/2-1]})/2" |bc
+	echo "${sort[($n-1)/2]}" | bc
 else
 	echo -n "Mediāna ir "
-	echo "${sort[($n-1)/2]}" | bc
+	echo "scale=1;(${sort[$n/2]} + ${sort[$n/2+1]})/2" |bc
 fi
 
 t=0

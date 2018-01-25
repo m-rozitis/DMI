@@ -16,15 +16,15 @@ def my_function(x):
         S = S + a
     return S
 
-a = -2
-b = 2
+a = -1.5
+b = 1.5
 x = np.arange(a,b,0.01)
 y = my_function(x)
 plt.plot(x,y)
 plt.grid()
 #plt.show()
 
-delta_x = 1.e-3 # 0.001 ir tas pats kas 1.e-3
+delta_x = 1.e-5 # 0.001 ir tas pats kas 1.e-3
 funa = my_function(a)
 funb = my_function(b)
 if funa * funb > 0:
