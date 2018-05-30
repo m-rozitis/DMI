@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{108-W8-Exam-171REB105}
+\author{rozitismartins }
+\date{April 2018}
+
+\begin{document}
+\begin{small}
+\emph{1.3. Limits of functions  253}
+\vspace{10mm}
+
+Expressions of the form $0 * \infty$ are brought into the form $\frac{\infty}{\infty}$ to which I'Hospital's rule applies.\\
+Example 4: $\lim_{x\to\+0} \ln{x}=\lim_{x\to\+0} \frac{\ln{x}}{\frac{1}{x}}=\lim_{x\to\+0} \frac{\frac{1}{x}}{-\frac{1}{x^2}}=\lim_{x\to\+0}(-x)=0$\\
+Expressions of the form $\infty - \infty$ are brought into the form $\infty * a$ for some finite value a.\\
+Example 5: $\lim_{x\to\+\infty}(e^x - x)=\lim_{x\to\+\infty}e^x(1-\frac{x}{e^x})=\lim_{x\to\+\infty}e^x\lim_{x\to\+\infty}(1-\frac{x}{e^x})=\lim_{x\to\+\infty}e^x = +\infty$ This follows from Example 2, where one has\\
+\begin{center} \lim_{x\to\+\infty}(1-\frac{x}{e^x})=1\\
+\end{center}
+The following formula is also very handy:\\
+\begin{center} a^x = e^{x*\ln{a}}\\
+\end{center}
+It can be applied to expressions of the form $0^0, \infty^0 or 0^\infty$\\
+Example 6 $(\infty^0)$: From $x^{1/x}=e^{\frac{\ln{x}}{x}}$ and Example 2, one gets\\
+\begin{center} $\lim_{x\to\+\infty}x^{1/x}=e^0=1$\\
+\end{center}
+
+\textbf{1.3.1.4 The order of magnitude of functions}\\
+
+For many considerations it is sufficient to have a good understanding of the qualitative behavior of functions. For this there are convenient symbols O(g(x)) and o(g(x)), due to Landau. Let $-\infty\leq a\leq\infty$\\
+\textbf{Definition} (Asymptotic equality): We write\\
+
+\begin{center}
+\begin{tabular}{|c|}    
+\hline
+ $f(x) \cong g(x), x \rightarrow a,$  \\\hline
+\end{tabular} 
+\end{center}
+
+\\
+if and only if $\lim_{x\to\+a} \frac{f(x)}{g(x)}$\\
+
+Example 1: The equality $\lim_{x\to\+0}\frac{\sin{x}}{x}=1$ implies $\sin{x}\cong x, x \rightarrow 0$\\
+
+\textbf{Definition:} We write\\
+
+\begin{center}
+\begin{tabular}{|c|}    
+\hline
+ $f(x) = O(g(x)), x \rightarrow a,$  \\\hline
+\end{tabular} 
+\end{center}
+\\
+if there is a neighborhood U(a) of \alpha and a real number K such that\\
+
+
+\begin{center}
+$|\frac{f(x)}{g(x)}|\leq K$ for all $x\in U(a)$ with $x\neq a$    
+\end{center}
+\\
+\textbf{Teorem:} The relation (1.29) holds if the finite limit $\lim_{x\to\+a}\frac{f(x)}{g(x)}$ exists.\\
+
+Example 2: The equality $\lim_{x\to\+\infty}\frac{3x^2+1}{x^2}=3$ implies $3x^2 + 1 = O(x^2), x \rightarrow +\infty$
+
+\textbf{Definition:} We write^{22}
+
+\begin{center}
+\begin{tabular}{|c|}    
+\hline
+ $f(x) = o(g(x)), x \rightarrow a,$  \\\hline
+\end{tabular} 
+\end{center}
+
+
+
+
+\end{small}
+\end{document}
